@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Auto-downloaded datasets (torchvision MNIST in hw6)
+hw6/data/
+
+# Course datasets too large for GitHub (train 353MB / test 50MB)
+hw3/train.csv
+hw3/test.csv
